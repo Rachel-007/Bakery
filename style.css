@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: 70px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:blue 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 1rem;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+}
+
+.brand {
+    font-size: 1.5rem;
+    color: #8b0000;
+    padding-bottom: 1rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    gap: 1.3rem;
+}
+
+aside {
+    flex-basis: 10%;
+}
+  
+aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+}
+  
+nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+aside ul li {
+    padding: 0.4em 0.7em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #8b0000;
+    color: white;
+    border-radius: 5px;
+}
+  
+article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    line-height: 1.2;
+}
+  
+h1 {
+    font-size: 2rem;
+}
+  
+.testimonial {
+    padding: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    background-color: #e4e4e4;
+}
+  
+footer {
+    padding: .5rem 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
